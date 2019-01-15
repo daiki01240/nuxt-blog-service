@@ -64,7 +64,9 @@ module.exports = {
     // See https://github.com/nuxt-community/axios-module#options
     baseURL: 'https://nuxt-start.firebaseio.com'
   },
-
+  router:{
+    middleware:['auth-cookie']
+  },
   /*
    ** Build configuration
    */
