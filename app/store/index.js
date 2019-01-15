@@ -12,6 +12,9 @@ export const mutations = {
   setUser(state,{user}){
     state.user = user,
     state.isLoggerdIn = true
+  },
+  updateUser(state, { user }) {
+    state.user = user
   }
 }
 
